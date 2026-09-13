@@ -1,6 +1,6 @@
 # Semantic Book Map — 3D
 
-A 3D map of 100,000 books, where position is based on what each book is actually about — not genre tags. Books get placed close together when an embedding model reads their descriptions and finds them semantically similar.
+A 3D map of 50,000 books, where position is based on what each book is actually about — not genre tags. Books get placed close together when an embedding model reads their descriptions and finds them semantically similar.
 
 ## What's in here
 
@@ -20,7 +20,7 @@ The page loads `books_data_3d.json` automatically as long as it's in the same fo
 pip install datasets pandas numpy sentence-transformers umap-learn scikit-learn
 ```
 
-Run `books.ipynb` top to bottom. You'll want a GPU — encoding 100k descriptions on CPU is slow. Embeddings get saved to disk mid-way so you're not stuck re-running that step every time.
+Run `books.ipynb` top to bottom. You'll want a GPU — encoding 50k descriptions on CPU is slow. Embeddings get saved to disk mid-way so you're not stuck re-running that step every time.
 
 ## Viewing it locally
 
